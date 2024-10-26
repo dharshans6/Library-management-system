@@ -1,0 +1,38 @@
+.slider,.carousel,.carousel-inner{
+  
+    /* border: solid black; */
+    
+}
+
+
+.carousel-inner{
+    /* border: solid gray; */
+    display: flex;
+    justify-content: center;
+    width: 150vh;
+}
+.slider>.carousel>.carousel-inner>.carousel-item>img{
+    width: 50vh !important;
+    height: 25vh;
+    aspect-ratio: 1; 
+    object-fit: cover;
+    /* border: solid; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* .grid-container{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid; */
+  
